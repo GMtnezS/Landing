@@ -1,0 +1,25 @@
+<svg viewBox="110 115 205 205" xmlns="http://www.w3.org/2000/svg">
+  <g id="logo" transform="translate(200 200)">
+    <!-- G shape - C outline, thicker -->
+    <path d="m42,-42a60,60 0 1 0 18,42" fill="none" stroke="#2c5f7c"
+      stroke-linecap="round" stroke-width="8" />
+    <!-- Middle wave -->
+    <path d="m60,0q-20,-8 -40,0t-40,0" fill="none" stroke="#2c5f7c"
+      stroke-linecap="round" stroke-width="8" />
+    <!-- Top wave (lighter blue) -->
+    <path d="m67.45,-14.66q-22.03,-8 -44.07,0t-44.07,0" fill="none" stroke="#5a9fb8"
+      stroke-linecap="round" stroke-width="6" />
+    <!-- Bottom wave (soft green) -->
+    <path d="m48.03,14.93q-16.84,-8 -33.69,0t-33.69,0" fill="none" stroke="#7db8a0"
+      stroke-linecap="round" stroke-width="6" />
+    <!-- Running water strands -->
+    <path d="m65.82,-15.26q15.16,8.25 12.92,25.36t12.92,25.36" fill="none"
+      stroke="#5a9fb8" stroke-linecap="round" stroke-width="6" />
+    <path d="m75.2,54q2.52,-15.61 -4.04,-17.85t-4.04,-17.85" fill="none"
+      stroke="#7db8a0" stroke-linecap="round" stroke-width="6"
+      transform="rotate(5 71.1576 36.1544)" />
+    <path d="m45.93,41.61q13.08,4.83 11.15,14.87t11.15,14.87" fill="none"
+      stroke="#5a9fb8" stroke-linecap="round" stroke-width="6"
+      transform="rotate(50 57.0455 56.4055)" />
+  </g>
+</svg>

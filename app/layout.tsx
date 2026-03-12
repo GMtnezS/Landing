@@ -1,10 +1,12 @@
 import type { Metadata } from 'next'
-import { Auth0Provider } from '@auth0/nextjs-auth0'
 import './globals.css'
 
 export const metadata: Metadata = {
-  title: 'Starter Template',
-  description: 'Auth0 + Supabase + Next.js starter',
+  title: 'Giselle Martinez-Sanchez',
+  description: 'Full-Stack Engineer building at the intersection of technology and human wellbeing.',
+  icons: {
+    icon: '/contained_water_.svg',
+  },
 }
 
 export default function RootLayout({
@@ -14,11 +16,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body>
-        <Auth0Provider>
-          {children}
-        </Auth0Provider>
-      </body>
+      <body>{children}</body>
     </html>
   )
 }

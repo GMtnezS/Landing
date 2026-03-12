@@ -1,3 +1,50 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+:root {
+  --baseline-bg:        #f8f9fa;
+  --baseline-card:      #ffffff;
+  --baseline-primary:   #2c5f7c;
+  --baseline-secondary: #5a9fb8;
+  --baseline-accent:    #7db8a0;
+  --baseline-text:      #333333;
+  --baseline-muted:     #888888;
+  --baseline-border:    #e8e8e8;
+
+  --text-hero:   2.5rem;
+  --text-h2:     1.5rem;
+  --text-body:   1rem;
+  --text-small:  0.875rem;
+
+  --weight-light:  300;
+  --weight-normal: 400;
+  --weight-medium: 500;
+  --weight-semi:   600;
+
+  --card-gap:        2rem;
+  --section-padding: 4rem 1rem;
+}
+
+@layer components {
+  .card {
+    background: var(--baseline-card);
+    border: 1px solid var(--baseline-border);
+    border-radius: 16px;
+    padding: 3rem 2.5rem;
+    width: 100%;
+    max-width: 680px;
+    margin: 0 auto;
+    box-shadow: 0 2px 12px rgba(44, 95, 124, 0.06);
+  }
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Helvetica Neue', Arial, sans-serif;
+  background: var(--baseline-bg);
+  color: var(--baseline-text);
+}
