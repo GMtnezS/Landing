@@ -23,7 +23,7 @@ export default function LinkyCard() {
 
       <div className="flex gap-3 mt-6">
         <a
-          href="https://gmtnezschez.com/linky"
+          href="https://linky.gmtnezschez.com/"
           target="_blank"
           rel="noopener noreferrer"
           className="px-4 py-2 rounded-lg bg-[#2c5f7c] text-white text-sm hover:bg-[#5a9fb8] transition-colors"
