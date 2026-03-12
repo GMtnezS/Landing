@@ -1,8 +1,12 @@
 {
   "rewrites": [
     {
+      "source": "/linky",
+      "destination": "https://linky-olive.vercel.app/linky"
+    },
+    {
       "source": "/linky/:path*",
-      "destination": "https://linky-olive.vercel.app/:path*"
+      "destination": "https://linky-olive.vercel.app/linky/:path*"
     }
   ]
 }
